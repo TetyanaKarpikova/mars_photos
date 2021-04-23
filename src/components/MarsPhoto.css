@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+ .btn-loard {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 16px 0;
+    margin: 10px 0 0 0;
+    background: darkblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+ 
+  @media screen and (max-device-width: 600px) {
+    button {
+     width: 100%;
+     height: 25%;
+    }
+    .btn-loard {      
+      padding: 8px 0;
+      margin: 10px 0 0 0;     
+      font-size: 14px;     
+    }
+  }

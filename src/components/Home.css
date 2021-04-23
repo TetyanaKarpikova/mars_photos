@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #847d7d;
+    background: rgb(199, 199, 245);     
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5px;
+}
+.root {
+    display: flex;
+}
+
+.fl-rover {    
+    border: 1px solid white;
+    max-width: 25%;  
+    align-items: center;
+    width: 50%;
+    height: 300px;    
+    height: -moz-fit-content;
+    margin: 15px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.btn-rover{
+    border-radius: 10px;
+    background: darkblue;
+    color: white;
+    width: 98%;
+    height: 23%;
+    margin: 3px;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.btn-rover:active {
+    border: 2px solid white;
+}
+
+.bord-1 {  
+    width: 100%;
+    border: 1px solid darkblue;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: darkblue;
+    color: white;
+}
+
+
+
+.baseSlider {
+    border: 1px solid white;
+    display: flex;
+    height: 100%;
+    width: 30%;    
+    margin: 15px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.range {
+    height: 80px;        
+    border-radius: 10px;
+    padding: 0 65px 45px;
+}
+
+.range .field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.range .field .value {  
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.range .field .value.left {
+    left: -20px;
+    margin-right: 5px;
+    
+}
+
+.range .field .value.right {
+    right: -40px;
+    margin-left: 5px
+}
+
+.range .field input {   
+    height: 20px;
+    width: 100%;    
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 18px;
+    text-align: center;
+}
+
+.base-cam {    
+    border: 1px solid white;
+    margin: 15px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.flex-cam {   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+   h2 {
+    margin-left: 5px;
+    font-size: 15px;
+   }
+
+  .fl-rover {    
+    border: 1px solid white;
+    max-width: 100%;
+    align-items: center;
+    height: auto;
+    background: rgb(199, 199, 245); 
+    height: -moz-fit-content;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 8px;
+    width: 95%;
+  }
+  .btn-rover{
+    border-radius: 10px;
+    background: darkblue;
+    color: white;
+    width: 100%;
+    height: 17%;
+    padding: 3px;
+    margin: 0px;
+    font-size: 15px;
+
+  }
+  .flex-cam {        
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;     
+    font-size: 15px;
+  }
+
+  .baseSlider {
+    display: flex;
+    height: auto;
+    width: 95%;
+    background: rgb(199, 199, 245); 
+    margin: 8px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.range {
+    height: auto;
+    background: rgb(199, 199, 245); 
+    border-radius: 10px;
+    padding: 0 5px 10px;
+}
+
+.range .field input {
+    height: 20px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.base-cam {
+    background: rgb(199, 199, 245); 
+    margin: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+ .flex-cam {        
+    padding: 0 4px; 
+} 
+.bord-1 {  
+    width: 100%;
+    border: 1px solid darkblue;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    background: darkblue;
+}
+
+
+}
